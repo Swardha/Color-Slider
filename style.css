@@ -12,7 +12,7 @@ body{
     height:250px;
     width:400px;
     position:absolute;
-    background-color: antiquewhite;
+    background-color: rgb(240, 192, 128);
     justify-content: center;
     display:block;
     margin:auto;
@@ -21,6 +21,9 @@ body{
     bottom:0;
     top:0;
     box-shadow: 3px 3px 7px rgba(0,0,0,0.4);
+    border-radius: 5px;
+    font-family: 'monospace';
+    font-weight: 600;
 }
 
 .wrapper{
@@ -34,6 +37,7 @@ input[type="range"]{
     margin:auto;
     width:300px;
     margin-top: 30px;
+    margin-left: 8px;
 }
 
 span{
@@ -44,8 +48,8 @@ span{
     text-align: center;
     position:relative;
     margin-top: 30px;
-    background-color: cornflowerblue;
-    color:black;
+    background-color: rgb(10, 54, 136);
+    color:white;
     padding:6px;
     font-family: 'monospace';
     font-weight: 500;
