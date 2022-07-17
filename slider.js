@@ -1,5 +1,5 @@
-//process for changing color
 
+//process for changing color
 function changeColor(){
     const redColor = document.querySelector("#red");
     const greenColor = document.querySelector("#green");
